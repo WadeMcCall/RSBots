@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SharedBotLib:jar">
+    <output-path>$USER_HOME$/DreamBot/Libs</output-path>
+    <root id="archive" name="SharedBotLib.jar">
+      <element id="module-output" name="SharedBotLib" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/5.1.0/mongodb-driver-sync-5.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson/5.1.0/bson-5.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/5.1.0/mongodb-driver-core-5.1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/mongodb/bson-record-codec/5.1.0/bson-record-codec-5.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

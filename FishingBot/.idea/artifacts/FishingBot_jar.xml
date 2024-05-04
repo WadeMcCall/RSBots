@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FishingBot:jar">
+    <output-path>$USER_HOME$/DreamBot/Scripts</output-path>
+    <root id="archive" name="FishingBot.jar">
+      <element id="module-output" name="FishingBot" />
+    </root>
+  </artifact>
+</component>
