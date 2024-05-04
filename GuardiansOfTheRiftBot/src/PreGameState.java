@@ -45,8 +45,10 @@ public class PreGameState extends State<Activity> {
         Area startArea = agilityLevel >= 56 ? UserAreas.LargeGuardianRemainsSouth : UserAreas.GuardianRemainsEast;
         Player me = Players.getLocal();
 
-        if (startArea.contains(me) || me.isMoving()) {
-            return;
+        if (startArea == UserAreas.GuardianRemainsEast) {
+            if (startArea.contains(me) || me.isMoving()) {
+                return;
+            }
         }
 
 
@@ -61,6 +63,7 @@ public class PreGameState extends State<Activity> {
             }
             if (!GameObjects.closest("Rubble").interact()) {
                 Walking.walk(UserAreas.GuardianRemainsEast);
+                Sleep.sleepUntil(() -> startArea.contains(me), 10000);
                 return;
             }
         } else {

@@ -53,7 +53,7 @@ public class MiningFragmentsPregameState extends State<Activity> {
     public void Enter() {
         guardiansAvailable = false;
         portalSpawned = false;
-        initialFragments = Utils.getRandomInt(150,200);
+        initialFragments = Utils.getRandomInt(200,250);
     }
 
     @Override

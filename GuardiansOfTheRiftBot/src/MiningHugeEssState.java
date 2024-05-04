@@ -1,6 +1,7 @@
 import SharedBotLib.Activity;
 import SharedBotLib.State;
 import SharedBotLib.StateMachine;
+import SharedBotLib.UserAreas;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
@@ -26,6 +27,13 @@ public class MiningHugeEssState extends State<Activity> {
         if (Dialogues.canContinue()) {
             Dialogues.continueDialogue();
             Sleep.sleepUntil(() -> !Dialogues.inDialogue(), 1200);
+            return;
+        }
+
+        if (!GuardiansStateMachine.isGameStarted()) {
+            GameObjects.closest("Portal").interact();
+            Sleep.sleepUntil(() -> !UserAreas.HugeGuardianRemains.contains(Players.getLocal()), 13000);
+            state_machine.switchState(GuardiansStateMachine.States.ENTRY_STATE);
             return;
         }
 

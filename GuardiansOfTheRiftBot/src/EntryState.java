@@ -19,7 +19,7 @@ public class EntryState extends State<Activity> {
 
     private void findEntryState() {
         Widget parent = Widgets.getWidget(GuardiansWidgetTextureIDs.WIDGET_PARENT_ID);
-        if (parent == null) {
+        if (parent == null || !parent.isVisible()) {
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
             return;
         } else if (parent.getChild(GuardiansWidgetTextureIDs.ELEMENTAL_CHILD_WIDGET_ID).getTextureId() == GuardiansWidgetTextureIDs.ELEMENTAL_TEXTURE_ID) {

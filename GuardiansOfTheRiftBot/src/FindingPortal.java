@@ -22,6 +22,10 @@ public class FindingPortal extends State<Activity> {
     public void doAction() {
         if (Walking.getDestinationDistance() > 7)
             return;
+        if (!GuardiansStateMachine.isGameStarted()) {
+            state_machine.switchState(GuardiansStateMachine.States.ENTRY_STATE);
+            return;
+        }
 
         if (UserAreas.HugeGuardianRemains.contains(Players.getLocal())) {
             Logger.log(Logger.LogType.INFO, "player in huge essence mine!");
@@ -30,6 +34,7 @@ public class FindingPortal extends State<Activity> {
             Sleep.sleep(400,1000);
             return;
         }
+
         if (UserAreas.LargeGuardianRemainsSouth.contains(Players.getLocal())) {
             GameObjects.closest("Rubble").interact();
             Sleep.sleepUntil(() -> !UserAreas.LargeGuardianRemainsSouth.contains(Players.getLocal()), 6000);

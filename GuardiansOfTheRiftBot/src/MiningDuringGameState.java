@@ -43,7 +43,7 @@ public class MiningDuringGameState extends State<Activity> {
 
     @Override
     public void Enter() {
-        goalEss = Utils.getRandomInt(40, 100);
+        goalEss = Utils.getRandomInt(40, 70);
     }
 
     @Override
