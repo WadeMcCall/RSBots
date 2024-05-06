@@ -1,6 +1,7 @@
 import SharedBotLib.Activity;
 import SharedBotLib.State;
 import SharedBotLib.StateMachine;
+import SharedBotLib.Utils;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
@@ -50,7 +51,7 @@ public class DepositingInPoolState extends State<Activity> {
     @Override
     public void chatMessageRecieved(Message message) {
         if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText) || message.getMessage().contains(GuardiansWidgetTextureIDs.gameLostText)) {
-            Sleep.sleep(600,5000);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(3000, 800));
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
         }
     }

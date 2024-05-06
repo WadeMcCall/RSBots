@@ -6,7 +6,7 @@ import org.dreambot.api.script.ScriptManifest;
         version = 1.0, category = Category.MINING, image = "")
 public class KillingBot extends AbstractScript {
 
-    FightingStateMachine sm = new FightingStateMachine(new KillingHillGiantsAtFoundryActivity());
+    FightingStateMachine sm = new FightingStateMachine(new MossGiantsInVarrockSewers());
 
     @Override
     public int onLoop() {

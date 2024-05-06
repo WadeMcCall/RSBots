@@ -1,7 +1,4 @@
-import SharedBotLib.Activity;
-import SharedBotLib.State;
-import SharedBotLib.StateMachine;
-import SharedBotLib.UserAreas;
+import SharedBotLib.*;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
@@ -68,7 +65,7 @@ public class MiningHugeEssState extends State<Activity> {
                     break;
                 pouch = pouches.get(numFullPouches);
             }
-            Sleep.sleep(50, 600);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(300, 150));
             GameObjects.closest("Huge guardian remains").interact();
             return true;
         }

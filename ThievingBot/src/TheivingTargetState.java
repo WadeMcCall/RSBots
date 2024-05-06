@@ -5,6 +5,7 @@ import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Map;
 import org.dreambot.api.methods.skills.Skill;
 import org.dreambot.api.methods.skills.Skills;
+import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.NPC;
 
@@ -54,7 +55,8 @@ public class TheivingTargetState extends TheivingState{
 
         if (target != null) {
             target.interact("Pickpocket");
-            Sleep.sleep(20,400);
+            double delay = Utils.getRandomGuassianDistNotNegative(300, 150);
+            Sleep.sleep((int)delay);
         }
     }
 

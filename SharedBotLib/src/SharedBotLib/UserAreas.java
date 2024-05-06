@@ -17,6 +17,7 @@ public class UserAreas {
     public static final Area WestVarrockBankArea = new Area(3179, 3448, 3191, 3432);
     public static final Area WestVarrockNormalTreeArea = new Area(3149, 3465, 3171, 3449);
     public static final Area WestVarrockMiningArea = new Area(3182, 3376, 3177, 3369);
+    public static final Area SouthGrandExchange = new Area(3159, 3494, 3170, 3484);
     public static final Area LumbyOakTreeArea = new Area(
             new Tile[] {
                     new Tile(3198, 3213, 0),
@@ -49,4 +50,6 @@ public class UserAreas {
     public static final Area SeersBank = new Area(2730, 3499, 2720, 3503);
 
     public static final Area WestVarrockGuards = new Area(3172, 3424, 3177, 3430);
+    public static final Area EdgevilleMossGiants = new Area(3153, 9909, 3165, 9898);
+    public static final Area EdgevilleChillMossGiants = new Area(3161, 9876, 3168, 9882);
 }

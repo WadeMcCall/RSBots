@@ -8,6 +8,7 @@ import org.dreambot.api.methods.skills.Skill;
 import org.dreambot.api.methods.skills.Skills;
 import org.dreambot.api.wrappers.items.Item;
 import org.dreambot.api.methods.container.impl.Inventory;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 import java.util.Random;
 
@@ -21,7 +22,7 @@ public class FightingAtSpotState extends KillingState<Activity> {
 
     @Override
     public void doAction() {
-        if (!Inventory.contains("Trout")) {
+        if (!Inventory.contains(state_machine.activity.currentFoodItem.getName())) {
             state_machine.switchState(FightingStateMachine.States.WALKING_TO_BANK_STATE);
             return;
         } else if (!Players.getLocal().isInCombat()) {
@@ -76,6 +77,11 @@ public class FightingAtSpotState extends KillingState<Activity> {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

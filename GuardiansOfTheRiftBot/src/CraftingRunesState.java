@@ -1,11 +1,9 @@
-import SharedBotLib.Activity;
-import SharedBotLib.State;
-import SharedBotLib.StateMachine;
-import SharedBotLib.UserAreas;
+import SharedBotLib.*;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
+import org.dreambot.api.methods.walking.impl.Walking;
 import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.GameObject;
@@ -33,13 +31,13 @@ public class CraftingRunesState extends State<Activity> {
 
         if (UserAreas.GuardiansFullArea.contains(me)) {
             state_machine.switchState(GuardiansStateMachine.States.GIVING_ESS_TO_GUARDIAN);
-            Sleep.sleep(300, 1000);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(700, 200));
             return;
         }
 
         if (Inventory.contains(x -> x.getName().contains("talisman"))) {
             Inventory.get(x -> x.getName().contains("talisman")).interact("drop");
-            Sleep.sleep(200,800);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(600, 200));
             return;
         }
 
@@ -49,14 +47,18 @@ public class CraftingRunesState extends State<Activity> {
             }
             GameObjects.closest("Portal").interact();
             Sleep.sleepUntil(() -> UserAreas.GuardiansFullArea.contains(me), 7000);
-            Sleep.sleep(600, 1200);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 300));
             return;
         }
 
         GameObject altar = GameObjects.closest("Altar");
 
         if (altar != null){
-            altar.interact();
+            if (!altar.interact()) {
+                Walking.walk(altar.getTile());
+                Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(2000, 700));
+                return;
+            }
             Sleep.sleepUntil(() -> !Inventory.contains("Guardian essence"), 7000);
             return;
         }
@@ -72,7 +74,7 @@ public class CraftingRunesState extends State<Activity> {
                     break;
                 pouch = pouches.get(numEmptyPouches);
             }
-            Sleep.sleep(600, 1000);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 200));
             return true;
         }
         return false;
@@ -117,9 +119,5 @@ public class CraftingRunesState extends State<Activity> {
 
     @Override
     public void chatMessageRecieved(Message message) {
-        if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText) || message.getMessage().contains(GuardiansWidgetTextureIDs.gameLostText)) {
-            Sleep.sleep(600,5000);
-            state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
-        }
     }
 }

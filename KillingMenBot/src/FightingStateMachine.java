@@ -10,9 +10,10 @@ public class FightingStateMachine extends StateMachine<FightingActivity> {
         addState(States.FIGHTING_AT_SPOT_STATE, new FightingAtSpotState(this));
         addState(States.FINDING_TARGET_STATE, new FindingTargetState(this));
         addState(States.LOOTING_STATE, new LootingState(this));
+        addState(States.ENTRY_STATE, new EntryState(this));
 
         activity = _activity;
-        switchState(States.WALKING_TO_SPOT_STATE);
+        switchState(States.ENTRY_STATE);
     }
 
     public enum States {
@@ -22,6 +23,7 @@ public class FightingStateMachine extends StateMachine<FightingActivity> {
         WALKING_TO_SPOT_STATE,
         FIGHTING_AT_SPOT_STATE,
         FINDING_TARGET_STATE,
-        LOOTING_STATE
+        LOOTING_STATE,
+        ENTRY_STATE
     }
 }

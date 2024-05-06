@@ -1,20 +1,24 @@
-import org.dreambot.api.methods.map.Area;
-import SharedBotLib.UserAreas;
 import SharedBotLib.LootItem;
+import SharedBotLib.UserAreas;
 
-public class KillingHillGiantsAtFoundryActivity extends FightingActivity{
-    KillingHillGiantsAtFoundryActivity() {
-
-        fightingArea = UserAreas.HillGiantsFoundryArea;
-        bankArea = UserAreas.AlKharidBank;
-        enemyMaxHit = 4;
-        enemyName = "Hill Giant";
+public class MossGiantsInVarrockSewers extends FightingActivity {
+    MossGiantsInVarrockSewers() {
+        bankArea = UserAreas.EdgevillBankArea;
+        fightingArea = UserAreas.EdgevilleChillMossGiants;
+        enemyMaxHit = 6;
+        enemyName = "Moss giant";
         shouldLoot = true;
-        minHealingFood = 3;
+        minHealingFood = 4;
         foodPriority = 3;
 
-        itemsToLoot.add(new LootItem("Curved bone", 105));
-        itemsToLoot.add(new LootItem("Giant key", 104));
+        itemsToLoot.add(new LootItem("Shield left half", 115));
+        itemsToLoot.add(new LootItem("Dragon spear", 114));
+        itemsToLoot.add(new LootItem("Giant champion scroll", 113));
+        itemsToLoot.add(new LootItem("Curved bone", 112));
+        itemsToLoot.add(new LootItem("Mossy key", 111));
+        itemsToLoot.add(new LootItem("Snapdragon seed", 110));
+        itemsToLoot.add(new LootItem("Ranarr seed", 109));
+        itemsToLoot.add(new LootItem("Torstol seed", 108));
         itemsToLoot.add(new LootItem("Long bone", 103));
         itemsToLoot.add(new LootItem("Snape grass seed", 100));
         itemsToLoot.add(new LootItem("Grimy ranarr weed", 99));

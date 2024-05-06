@@ -1,7 +1,4 @@
-import SharedBotLib.Activity;
-import SharedBotLib.State;
-import SharedBotLib.StateMachine;
-import SharedBotLib.UserAreas;
+import SharedBotLib.*;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Map;
@@ -26,12 +23,16 @@ public class FindingPortal extends State<Activity> {
             state_machine.switchState(GuardiansStateMachine.States.ENTRY_STATE);
             return;
         }
+        if (!GuardiansStateMachine.isPortalOpen()) {
+            state_machine.switchState(GuardiansStateMachine.States.WALKING_TO_WORKBENCH);
+            return;
+        }
 
         if (UserAreas.HugeGuardianRemains.contains(Players.getLocal())) {
             Logger.log(Logger.LogType.INFO, "player in huge essence mine!");
             state_machine.switchState(GuardiansStateMachine.States.MINING_HUGE_ESS);
             Sleep.sleepUntil(() -> !Players.getLocal().isMoving(), 7000);
-            Sleep.sleep(400,1000);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(700, 200));
             return;
         }
 
@@ -43,19 +44,14 @@ public class FindingPortal extends State<Activity> {
 
         GameObject portal = GameObjects.closest(x -> x.getName().equals("Portal") && x.getID() != 43692);
 
-        if (portal == null) {
-            Logger.log(Logger.LogType.INFO, "couldn't detect player inside huge essence mine");
-            state_machine.switchState(GuardiansStateMachine.States.ENTRY_STATE);
-            return;
-        }
-
         if (Map.canReach(portal) && !portal.interact()) {
             Walking.walk(portal.getTile());
-            Sleep.sleepUntil(() -> Walking.getDestinationDistance() <= 3, 7000);
+            Sleep.sleepUntil(() -> UserAreas.HugeGuardianRemains.contains(Players.getLocal()), 7000);
             Sleep.sleep(1200, 1800);
             return;
         }
-        Sleep.sleepUntil(() -> UserAreas.HugeGuardianRemains.contains(Players.getLocal()),2400);
+        Sleep.sleepUntil(() -> UserAreas.HugeGuardianRemains.contains(Players.getLocal()),5000);
+        Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 150));
     }
 
     @Override
@@ -70,6 +66,9 @@ public class FindingPortal extends State<Activity> {
 
     @Override
     public void chatMessageRecieved(Message message) {
-
+        if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText) || message.getMessage().contains(GuardiansWidgetTextureIDs.gameLostText)) {
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(3000, 800));
+            state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
+        }
     }
 }

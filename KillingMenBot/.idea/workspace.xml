@@ -10,30 +10,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8284c388-9fb0-439a-9691-1ba474c78681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/KillingMenBot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/SharedBotLib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KillingMenBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/BankingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FightingActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FightingAtSpotState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FightingMenInEdgevilleActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FightingStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FindingTargetState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KillingBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KillingHillGiantsAtFoundryActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/KillingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LootingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UseBankState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WalkingToBankState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WalkingToSpotState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThievingBot/src/ArdyKnightsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/CraftingFragmentsState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/CraftingFragmentsState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/CraftingRunesState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/CraftingRunesState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/DepositingInPoolState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/DepositingInPoolState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/EntryState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/EntryState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/FindingGuardianState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/FindingGuardianState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/FindingPortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/FindingPortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/GivingEssToGuardianState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/GivingEssToGuardianState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/GuardiansStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/GuardiansStateMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningDuringGameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningDuringGameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningFragmentsPregameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningFragmentsPregameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningHugeEssState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/MiningHugeEssState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/PreGameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/PreGameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/WalkingToWorkbenchState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/src/WalkingToWorkbenchState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/src/StunnedState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/src/StunnedState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/src/TheivingTargetState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/src/TheivingTargetState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -61,18 +57,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dance/DreamBot/Libs/SharedBotLib.jar",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dance/Documents/RSBots/KillingMenBot&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

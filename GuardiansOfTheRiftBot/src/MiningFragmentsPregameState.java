@@ -68,7 +68,7 @@ public class MiningFragmentsPregameState extends State<Activity> {
         }
         if (message.getMessage().contains("no need to do that")) {
             Logger.log(Logger.LogType.INFO, "gameEnded fail-safe");
-            Sleep.sleep(600,5000);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(3000, 800));
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
         }
         if (message.getMessage().contains(GuardiansWidgetTextureIDs.guardiansAvailableText)) {

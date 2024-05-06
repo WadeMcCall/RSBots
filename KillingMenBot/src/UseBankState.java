@@ -23,6 +23,9 @@ public class UseBankState extends KillingState<Activity> {
             GameObject bankBooth = GameObjects.closest("Bank booth");
             bankBooth.interact("Bank");
             Sleep.sleepUntil(() -> Bank.isOpen(), 4000);
+            if (Bank.isOpen()) {
+                Bank.depositAllItems();
+            }
         }
     }
 

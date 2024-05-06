@@ -24,7 +24,8 @@ public class StunnedState extends TheivingState {
         if (Inventory.contains("Coin pouch")) {
             if (openPouches) {
                 Inventory.get("Coin pouch").interact();
-                Sleep.sleep(50, 700);
+                double delay = Utils.getRandomGuassianDistNotNegative(500, 200);
+                Sleep.sleep((int)delay);
                 return;
             }
         }

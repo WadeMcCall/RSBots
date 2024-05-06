@@ -55,7 +55,7 @@ public class PreGameState extends State<Activity> {
         if (agilityLevel >= 56) {
             Tile standingTile = new Tile(3639, 9500, 0);
             if (startArea.contains(me) && standingTile.distance() != 0) {
-                Walking.walkExact(standingTile);
+                Walking.walk(standingTile);
                 Sleep.sleepUntil(() -> standingTile.distance() == 0, 4000);
                 return;
             } else if (startArea.contains(me)){
@@ -63,8 +63,10 @@ public class PreGameState extends State<Activity> {
             }
             if (!GameObjects.closest("Rubble").interact()) {
                 Walking.walk(UserAreas.GuardianRemainsEast);
-                Sleep.sleepUntil(() -> startArea.contains(me), 10000);
+                Sleep.sleepUntil(() -> UserAreas.GuardianRemainsEast.contains(me), 10000);
                 return;
+            } else {
+                Sleep.sleepUntil(() -> startArea.contains(me), 10000);
             }
         } else {
 

@@ -1,7 +1,4 @@
-import SharedBotLib.Activity;
-import SharedBotLib.State;
-import SharedBotLib.StateMachine;
-import SharedBotLib.UserAreas;
+import SharedBotLib.*;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
@@ -23,6 +20,10 @@ public class WalkingToWorkbenchState extends State<Activity> {
         if (UserAreas.LargeGuardianRemainsSouth.contains(me)) {
             GameObjects.closest("Rubble").interact();
             Sleep.sleepUntil(() -> !UserAreas.LargeGuardianRemainsSouth.contains(me), 5000);
+            return;
+        }
+        if (GuardiansStateMachine.isPortalOpen()) {
+            state_machine.switchState(GuardiansStateMachine.States.FINDING_PORTAL);
             return;
         }
 
@@ -62,7 +63,7 @@ public class WalkingToWorkbenchState extends State<Activity> {
     @Override
     public void chatMessageRecieved(Message message) {
         if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText)) {
-            Sleep.sleep(600,5000);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(3000, 800));
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
         }
     }

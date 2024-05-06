@@ -12,8 +12,11 @@ import org.dreambot.api.wrappers.interactive.GameObject;
 import org.dreambot.api.wrappers.interactive.Player;
 import org.dreambot.api.wrappers.items.Item;
 
+import java.util.Random;
+
 public class Utils {
     public static final String[] EMPTY_STRING_ARRAY = {};
+    public static final Random rand = new Random();
 
     public static Boolean checkIfTileAroundHasPlayer(GameObject go){
         Tile temp=new Tile(go.getX(),go.getY());
@@ -44,6 +47,11 @@ public class Utils {
 
     public static int getRandomInt(int min, int max) {
         return (int) ((Math.random() * (max - min)) + min);
+    }
+
+    public static double getRandomGuassianDistNotNegative(double center, double stdDev) {
+        double randNum = rand.nextGaussian() * stdDev + center;
+        return randNum >= 0 ? randNum : 0.0;
     }
 
 

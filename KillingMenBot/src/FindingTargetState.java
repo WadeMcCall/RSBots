@@ -14,7 +14,7 @@ public class FindingTargetState extends KillingState<Activity> {
 
     @Override
     public void doAction() {
-        if (!Inventory.contains("Trout")) {
+        if (!Inventory.contains(state_machine.activity.currentFoodItem.getName())) {
             state_machine.switchState(FightingStateMachine.States.WALKING_TO_BANK_STATE);
             return;
         } else if (Players.getLocal().isInCombat()){
@@ -25,12 +25,11 @@ public class FindingTargetState extends KillingState<Activity> {
             NPC target = NPCs.closest(n -> n.getName().contains(state_machine.activity.enemyName)
                     && n.hasAction("Attack")
                     && !n.isHealthBarVisible()
-                    && !n.isInCombat()
                     && n.getInteractingCharacter() == null
                     && !n.isInteractedWith()
                     && Map.canReach(n));
             if (target != null && target.interact("Attack")) {
-                Sleep.sleepUntil(() -> Players.getLocal().isInCombat(), 1000);
+                Sleep.sleepUntil(() -> Players.getLocal().isInCombat(), 3000);
             }
         }
     }

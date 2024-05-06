@@ -52,6 +52,8 @@ public class GuardiansStateMachine extends StateMachine<Activity> {
 
     public static boolean isPortalOpen() {
         Widget parent = Widgets.getWidget(GuardiansWidgetTextureIDs.WIDGET_PARENT_ID);
+        if (UserAreas.HugeGuardianRemains.contains(Players.getLocal()))
+            return true;
         if (parent == null) {
             return false;
         } else if (parent.getChild(GuardiansWidgetTextureIDs.PORTAL_CHILD_WIDGET_ID).getTextureId() == GuardiansWidgetTextureIDs.PORTAL_TEXTURE_ID

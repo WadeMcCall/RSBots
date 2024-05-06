@@ -1,6 +1,7 @@
 import SharedBotLib.Activity;
 import SharedBotLib.State;
 import SharedBotLib.StateMachine;
+import SharedBotLib.Utils;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
@@ -58,7 +59,7 @@ public class CraftingFragmentsState extends State<Activity> {
                     break;
                 pouch = pouches.get(numFullPouches);
             }
-            Sleep.sleep(50, 600);
+            Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(300, 100));
             GameObjects.closest("Workbench").interact();
             return true;
         }
@@ -104,7 +105,7 @@ public class CraftingFragmentsState extends State<Activity> {
     @Override
     public void chatMessageRecieved(Message message) {
         if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText)) {
-            Sleep.sleep(600,5000);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(3000, 800));
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
         }
     }

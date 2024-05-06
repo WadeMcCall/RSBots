@@ -16,7 +16,7 @@ public class WalkingToBankState extends KillingState<Activity> {
             state_machine.switchState(FightingStateMachine.States.USE_BANK_STATE);
             return;
         }
-        if (!Players.getLocal().isMoving()) {
+        if (Walking.getDestinationDistance() <= 3) {
             Walking.walk(state_machine.activity.bankArea.getRandomTile());
         }
     }

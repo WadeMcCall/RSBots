@@ -1,7 +1,4 @@
-import SharedBotLib.Activity;
-import SharedBotLib.State;
-import SharedBotLib.StateMachine;
-import SharedBotLib.UserAreas;
+import SharedBotLib.*;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
@@ -42,7 +39,7 @@ public class FindingGuardianState extends State<Activity> {
 
         if(!UserAreas.GuardiansFullArea.contains(me)) {
             state_machine.switchState(GuardiansStateMachine.States.CRAFTING_RUNES);
-            Sleep.sleep(600,1200);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 300));
             return;
         }
 
@@ -54,16 +51,16 @@ public class FindingGuardianState extends State<Activity> {
         if (target == null || !target.interact()) {
             if(!UserAreas.GuardiansFullArea.contains(me)) {
                 state_machine.switchState(GuardiansStateMachine.States.CRAFTING_RUNES);
-                Sleep.sleep(600,1200);
+                Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 300));
                 return;
             }
             Walking.walk(UserAreas.GuardianAltars.getRandomTile());
-            Sleep.sleep(300, 1000);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(700, 300));
             return;
         }
 
         Sleep.sleepUntil(() -> !me.isMoving() || !getViableGuardians().contains(target.getName()), 10000);
-        Sleep.sleep(300,900);
+        Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(900, 150));
     }
 
     private GameObject getHighestPriorityGuardian(List<String> guardians) {
@@ -81,6 +78,9 @@ public class FindingGuardianState extends State<Activity> {
         }
         if (guardians.contains("Guardian of Nature")) {
             return GameObjects.closest("Guardian of Nature");
+        }
+        if (guardians.contains("Guardian of Cosmic")) {
+            return GameObjects.closest("Guardian of Cosmic");
         }
         if (guardians.contains("Guardian of Mind")) {
             return GameObjects.closest("Guardian of Mind");
@@ -284,7 +284,7 @@ public class FindingGuardianState extends State<Activity> {
     @Override
     public void chatMessageRecieved(Message message) {
         if (message.getMessage().contains(GuardiansWidgetTextureIDs.gameEndedText) || message.getMessage().contains(GuardiansWidgetTextureIDs.gameLostText)) {
-            Sleep.sleep(600,5000);
+            Sleep.sleep((int)Utils.getRandomGuassianDistNotNegative(3000, 800));
             state_machine.switchState(GuardiansStateMachine.States.PRE_GAME);
         }
     }
