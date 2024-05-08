@@ -25,8 +25,7 @@ public class FindingTargetState extends KillingState<Activity> {
             NPC target = NPCs.closest(n -> n.getName().contains(state_machine.activity.enemyName)
                     && n.hasAction("Attack")
                     && !n.isHealthBarVisible()
-                    && n.getInteractingCharacter() == null
-                    && !n.isInteractedWith()
+                    && (n.getInteractingCharacter() == null || n.getInteractingCharacter() == Players.getLocal())
                     && Map.canReach(n));
             if (target != null && target.interact("Attack")) {
                 Sleep.sleepUntil(() -> Players.getLocal().isInCombat(), 3000);
