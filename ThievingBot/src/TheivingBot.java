@@ -6,7 +6,7 @@ import org.dreambot.api.script.ScriptManifest;
         version = 1.0, category = Category.THIEVING, image = "")
 public class TheivingBot extends AbstractScript {
 
-    TheivingStateMachine sm = new TheivingStateMachine(new TheivingGuardsInVarrockActivity());
+    TheivingStateMachine sm = new TheivingStateMachine(new MasterFarmerInDraynorActivity());
 
     @Override
     public int onLoop() {

@@ -3,6 +3,7 @@ import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.NPCs;
+import org.dreambot.api.methods.interactive.Players;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -40,7 +41,8 @@ public class VampyreSlayerActivity extends QuestActivity{
                 new GatherRequirementsQuestAction(requiredItems, true),
                 new WalkQuestAction(UserAreas.CountDraynorCoffin),
                 new InteractQuestAction("Coffin", "Open", a -> NPCs.closest("Count Draynor") != null),
-                new NPCInteractQuestAction("Count Draynor", "Attack", k -> NPCs.closest("Count Draynor") == null),
+                new NPCInteractQuestAction("Count Draynor", "Attack", k -> Players.getLocal().isInCombat()),
+                new SimpleCombatQuestAction(3, "Count Draynor"),
                 new WaitForQuestCompleteAction()
         ));
     }

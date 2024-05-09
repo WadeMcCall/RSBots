@@ -10,20 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0cf1cb-b51d-40d5-87c7-c88e6027a7a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RFDGoblinGenerals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RFDStartActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SimpleCombatQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThievingBot/src/MasterFarmerInDraynorActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SharedBotLib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/client.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogueQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/src/BankingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/src/BankingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/src/TheivingBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/src/TheivingBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/src/TheivingTargetState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/src/TheivingTargetState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/QuestBot",
+    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/SharedBotLib",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"

@@ -33,6 +33,7 @@ public class UserAreas {
     public static final Area DraynorManorFoyer = new Area(3105, 3357, 3112, 3354);
     public static final Area DraynorManorSecretRoom = new Area(3091, 3363, 3096, 3354);
     public static final Area CountDraynorCoffin = new Area(3075, 9777, 3079, 9768);
+    public static final Area DraynorMarket = new Area(3076, 3255, 3085, 3247);
 
     // Edgeville Areas
     public static final Area EdgevilleMenArea = new Area(3091, 3513, 3099, 3507);
@@ -63,6 +64,9 @@ public class UserAreas {
     public static final Area LumbyRangeArea = new Area(3205, 3216, 3209, 3213);
     public static final Area InFrontOfLumbridgeCastleArea = new Area(3231, 3210, 3235, 3224);
     public static final Area LumbridgeHopsArea = new Area(3225, 3302, 3232, 3309);
+    public static final Area LumbridgeCastleCook = new Area(3205, 3216, 3211, 3212);
+    public static final Area RFDDiningHall = new Area(7429, 1605, 7434, 1618);
+    public static final Area LumbyCastleGroundFloor = new Area(3205, 3228, 3216, 3209);
 
     // Guardians of the Rift areas
     public static final Area LargeGuardianRemainsSouth = new Area(3637, 9506, 3642, 9498);
@@ -80,5 +84,7 @@ public class UserAreas {
     public static final Area SeersMapleTrees = new Area(2730, 3499, 2720, 3503);
     public static final Area SeersBank = new Area(2730, 3499, 2720, 3503);
 
-
+    //Falador areas
+    public static final Area GoblinVillageFull = new Area(2949, 3498, 2962, 3514);
+    public static final Area GoblinVillageEastLadderHouse = new Area(2959, 3507, 2962, 3504);
 }

@@ -5,6 +5,7 @@ import org.bson.conversions.Bson;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.container.impl.bank.Bank;
 import org.dreambot.api.methods.interactive.GameObjects;
+import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.*;
@@ -25,6 +26,14 @@ public class GatherRequirementsQuestAction extends QuestAction {
 
     @Override
     public ActionResult doAction() {
+        // Check if inventory contains the required amounts
+        boolean allItemsAcquired = itemMap.entrySet().stream()
+                .allMatch(entry -> Inventory.count(entry.getKey()) >= entry.getValue());
+
+        Logger.log(allItemsAcquired);
+        if (allItemsAcquired)
+            return ActionResult.FINISH;
+
         if (!Bank.isOpen()) {
             GameObjects.closest(x -> x.hasAction("Bank")).interact("Bank");
             Sleep.sleepUntil(() -> Bank.isOpen(), 10000);
@@ -54,14 +63,6 @@ public class GatherRequirementsQuestAction extends QuestAction {
                 }
             }
         }
-
-
-        // Check if inventory contains the required amounts
-        boolean allItemsAcquired = itemMap.entrySet().stream()
-                .allMatch(entry -> Inventory.count(entry.getKey()) >= entry.getValue());
-
-        if (allItemsAcquired)
-            return ActionResult.FINISH;
         return ActionResult.CONTINUE;
     }
 }

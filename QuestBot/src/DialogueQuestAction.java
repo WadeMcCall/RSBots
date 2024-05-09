@@ -20,6 +20,8 @@ public class DialogueQuestAction extends QuestAction {
             return ActionResult.FINISH;
         }
         if (Dialogues.areOptionsAvailable()) {
+            if (dialogueOptions.isEmpty())
+                return ActionResult.FINISH;
             int option = dialogueOptions.remove();
             Keyboard.type(option, false);
             return ActionResult.CONTINUE;

@@ -44,7 +44,11 @@ public class BankingState extends TheivingState{
         for (FoodItem item : foodItems) {
             if (Bank.contains(item.getName())) {
                 state_machine.activity.currentFoodItem = item;
-                Bank.withdraw(item.getName(), 27 - state_machine.activity.numItemsFromTarget);
+                if (state_machine.activity.numItemsFromTarget > 20) {
+                    Bank.withdraw(item.getName(), 12);
+                } else {
+                    Bank.withdraw(item.getName(), 27 - state_machine.activity.numItemsFromTarget);
+                }
                 Sleep.sleepUntil(() -> Inventory.contains(state_machine.activity.currentFoodItem.getName()), 3000);
                 break;
             }
