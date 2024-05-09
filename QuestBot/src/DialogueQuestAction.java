@@ -1,10 +1,14 @@
 import org.dreambot.api.input.Keyboard;
 import org.dreambot.api.methods.dialogues.Dialogues;
 
-import java.util.Stack;
+import java.util.Queue;
 
 public class DialogueQuestAction extends QuestAction {
-    public Stack<Integer> dialogueOptions;
+    public Queue<Integer> dialogueOptions;
+
+    public DialogueQuestAction(Queue<Integer> _options) {
+        dialogueOptions = _options;
+    }
 
     @Override
     public ActionResult doAction() {
@@ -16,10 +20,10 @@ public class DialogueQuestAction extends QuestAction {
             return ActionResult.FINISH;
         }
         if (Dialogues.areOptionsAvailable()) {
-            int option = dialogueOptions.pop();
+            int option = dialogueOptions.remove();
             Keyboard.type(option, false);
             return ActionResult.CONTINUE;
         }
-        return ActionResult.ERROR;
+        return ActionResult.CONTINUE;
     }
 }

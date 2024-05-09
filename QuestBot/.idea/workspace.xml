@@ -1,23 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="QuestBot:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0cf1cb-b51d-40d5-87c7-c88e6027a7a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/SharedBotLib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/QuestBot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DialogueQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestSection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestingStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/QuestBot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GroundItemInteractQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseItemQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaitForQuestCompleteAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WalkQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SharedBotLib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/client.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuestBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogueQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestingStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestingStateMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +48,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -50,12 +66,12 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/QuestBot",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "last_opened_file_path": "C:/Users/dance/DreamBot/Scripts",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>

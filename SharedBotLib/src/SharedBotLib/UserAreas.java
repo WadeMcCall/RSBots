@@ -11,6 +11,18 @@ public class UserAreas {
     public static final Area AlKharidBank = new Area(3265, 3173, 3271, 3161);
     public static final Area DraynorFishingArea = new Area(3080, 3237, 3087, 3226);
     public static final Area DraynorBank = new Area(3092, 3245, 3096, 3241);
+    public static final Area DraynorManorGroundsEntrance = new Area(3108, 3331, 3111, 3329);
+    public static final Area DraynorManorEntrance = new Area(3106, 3353, 3111, 3350);
+    public static final Area DraynorManorPoisonRoom = new Area(3097, 3365, 3100, 3365);
+    public static final Area DraynorManorStaircaseArea = new Area(3105, 3365, 3111, 3358);
+    public static final Area DraynorManorFishfood = new Area(3107, 3360, 3109, 3355, 1);
+    public static final Area DraynorManorBookcaseArea = new Area(3097, 3363, 3103, 3355);
+    public static final Area DraynorManorExitRoom = new Area(3120, 3360, 3125, 3354);
+    public static final Area DraynorManorCompostHeap = new Area(3087, 3358, 3085, 3365);
+    public static final Area DraynorManorFountain = new Area(3085, 3332, 3090, 3337);
+    public static final Area DraynorManorPressureGaugeRoom = new Area(3108, 3367, 3111, 3367);
+    public static final Area DraynorManorProfessorOddenstien = new Area(3108, 3369, 3111, 3362, 2);
+    public static final Area DraynorManorFoyer = new Area(3105, 3357, 3112, 3354);
 
     public static final Area EdgevilleMenArea = new Area(3091, 3513, 3099, 3507);
     public static final Area EdgevillBankArea = new Area(3097, 3498, 3091, 3494);
@@ -52,4 +64,6 @@ public class UserAreas {
     public static final Area WestVarrockGuards = new Area(3172, 3424, 3177, 3430);
     public static final Area EdgevilleMossGiants = new Area(3153, 9909, 3165, 9898);
     public static final Area EdgevilleChillMossGiants = new Area(3161, 9876, 3168, 9882);
+
+
 }
