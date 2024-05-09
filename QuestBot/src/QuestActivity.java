@@ -30,7 +30,6 @@ public class QuestActivity extends Activity {
             return QuestAction.ActionResult.CONTINUE;
 
         if (currentAction == null) {
-            Logger.log("currentAction is null, finding next action");
             if (!moveToNextSection()) {
                 return QuestAction.ActionResult.FINISH;
             }
@@ -50,7 +49,6 @@ public class QuestActivity extends Activity {
 
     private boolean moveToNextSection() {
         currentSection = sections.poll();
-        Logger.log("in moveToNextSection");
         if (currentSection != null) {
             currentAction = currentSection.getNextQuestAction();
             return true;

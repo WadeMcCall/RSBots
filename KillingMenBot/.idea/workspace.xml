@@ -10,28 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8284c388-9fb0-439a-9691-1ba474c78681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../QuestBot/.idea/artifacts/QuestBot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/ErnestTheChickenActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/GroundItemInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/NPCInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/QuestActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/QuestingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/UseItemQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/WaitForQuestCompleteAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/WalkQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuestBot/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuestBot/src/GatherRequirementsQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QuestBot/src/VampyreSlayerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/libraries/SharedBotLib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/libraries/client.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/QuestBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/QuestBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/DialogueQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuestBot/src/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/ErnestTheChickenActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/InteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/QuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/QuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuestBot/src/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/QuestActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/QuestBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/QuestSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/QuestSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/QuestingStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/QuestingStateMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

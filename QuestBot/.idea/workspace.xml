@@ -10,29 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0cf1cb-b51d-40d5-87c7-c88e6027a7a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/QuestBot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GroundItemInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UseItemQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WaitForQuestCompleteAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WalkQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/SharedBotLib.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/client.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QuestBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuestBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DialogueQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestingStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestingStateMachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +59,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dance/DreamBot/Scripts",
+    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/QuestBot",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -79,21 +69,6 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="QuestBot" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="QuestBot" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

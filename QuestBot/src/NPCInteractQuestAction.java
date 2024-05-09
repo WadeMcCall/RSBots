@@ -33,10 +33,10 @@ public class NPCInteractQuestAction extends QuestAction{
         }
         if (!object.interact(interactAction)) {
             Walking.walk(object.getTile());
-            Sleep.sleepUntil(() -> !Players.getLocal().isMoving(), 3000);
+            Sleep.sleepUntil(() -> !Players.getLocal().isMoving(), 10000);
             return ActionResult.CONTINUE;
         } else {
-            Sleep.sleepUntil(() ->!Players.getLocal().isMoving(), 3000);
+            Sleep.sleepUntil(() ->!Players.getLocal().isMoving(), 10000);
             Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(1200, 100));
         }
         if (isComplete()) {

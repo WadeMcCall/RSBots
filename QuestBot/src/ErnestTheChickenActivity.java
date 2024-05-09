@@ -54,8 +54,8 @@ public class ErnestTheChickenActivity extends QuestActivity{
                 new InteractQuestAction(141, "Open", a -> Players.getLocal().getTile().equals(new Tile(3099, 9755, 0)) && !Players.getLocal().isMoving() && !Players.getLocal().isAnimating()),
                 new GroundItemInteractQuestAction("Oil can", "Take", a -> Inventory.contains("Oil can")),
                 new InteractQuestAction(141, "Open", a -> Players.getLocal().getTile().equals(new Tile(3101, 9755, 0)) && !Players.getLocal().isMoving() && !Players.getLocal().isAnimating()),
-                new InteractQuestAction("Ladder", "Climb-up"),
-                new InteractQuestAction("Lever","Pull" )
+                new InteractQuestAction("Ladder", "Climb-up", a-> UserAreas.DraynorManorSecretRoom.contains(Players.getLocal())),
+                new InteractQuestAction("Lever","Pull", a -> UserAreas.DraynorManorBookcaseArea.contains(Players.getLocal()))
         )));
 
         sections.add((createQuestSection(
