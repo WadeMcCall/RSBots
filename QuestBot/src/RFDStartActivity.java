@@ -1,4 +1,4 @@
-import SharedBotLib.UserAreas;
+import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 
@@ -15,9 +15,9 @@ public class RFDStartActivity extends QuestActivity{
         requiredItems.put("Fruit blast", 1);
 
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.LumbyUpstairsBankArea),
+                new WalkQuestAction(UserAreaService.getAreaByName("LumbyUpstairsBankArea")),
                 new GatherRequirementsQuestAction(requiredItems),
-                new WalkQuestAction(UserAreas.LumbridgeCastleCook),
+                new WalkQuestAction(UserAreaService.getAreaByName("LumbridgeCastleCook")),
                 new NPCInteractQuestAction("Cook", "Talk-to", a -> Dialogues.inDialogue()),
                 createDialogueQuestAction(1,1,1,1),
                 new UseItemQuestAction("Fruit blast", "Ashes", a -> Inventory.contains("Dirty blast")),

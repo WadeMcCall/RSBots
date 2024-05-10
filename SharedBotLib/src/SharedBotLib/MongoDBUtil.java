@@ -1,8 +1,11 @@
 package SharedBotLib;
 
+import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoDatabase;
+import org.bson.codecs.configuration.CodecRegistries;
+import org.bson.codecs.configuration.CodecRegistry;
 import org.dreambot.api.utilities.Logger;
 
 public class MongoDBUtil {
@@ -16,7 +19,19 @@ public class MongoDBUtil {
     public static MongoDatabase getDatabase() {
         try{
             if (mongoClient == null) {
-                mongoClient = MongoClients.create("mongodb://localhost:27017");
+                // Create a CodecRegistry with the custom AreaModelCodec
+                CodecRegistry codecRegistry = CodecRegistries.fromRegistries(
+                        MongoClientSettings.getDefaultCodecRegistry(),
+                        CodecRegistries.fromCodecs(new AreaModelCodec())
+                );
+
+                // Build MongoClientSettings with the custom CodecRegistry
+                MongoClientSettings settings = MongoClientSettings.builder()
+                        .codecRegistry(codecRegistry)
+                        .build();
+
+                // Initialize the MongoClient and MongoDatabase
+                mongoClient = MongoClients.create(settings);
                 database = mongoClient.getDatabase("WadeBot");
             }
         } catch (Exception e) {

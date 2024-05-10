@@ -1,4 +1,4 @@
-import SharedBotLib.UserAreas;
+import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.Players;
@@ -11,19 +11,19 @@ public class ErnestTheChickenActivity extends QuestActivity{
 
     public ErnestTheChickenActivity() {
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.DraynorManorGroundsEntrance),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorGroundsEntrance")),
                 new NPCInteractQuestAction("Veronica", "Talk-to", a -> Dialogues.inDialogue()),
                 createDialogueQuestAction(1) // Goes through dialogue and chooses the options passed, in order
         ));
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.DraynorManorEntrance),
-                new InteractQuestAction("Large door", "Open", a -> UserAreas.DraynorManorFoyer.contains(Players.getLocal())),
-                new WalkQuestAction(UserAreas.DraynorManorPoisonRoom),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorEntrance")),
+                new InteractQuestAction("Large door", "Open", a -> UserAreaService.getAreaByName("DraynorManorFoyer").contains(Players.getLocal())),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorPoisonRoom")),
                 new GroundItemInteractQuestAction("Poison", "Take", a -> Inventory.contains("Poison")),
-                new WalkQuestAction(UserAreas.DraynorManorFishfood),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorFishfood")),
                 new GroundItemInteractQuestAction("Fish food", "Take", a -> Inventory.contains("Fish food")),
                 new UseItemQuestAction("Fish food", "Poison", a -> Inventory.contains("Poisoned fish food")),
-                new WalkQuestAction(UserAreas.DraynorManorBookcaseArea),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorBookcaseArea")),
                 new InteractQuestAction("Bookcase", "Search", a -> Players.getLocal().getTile().equals(new Tile(3096, 3359, 0)) || Players.getLocal().getTile().equals(new Tile(3096, 3358, 0))),
                 new InteractQuestAction("Ladder", "Climb-down", a -> Players.getLocal().getTile().equals(new Tile(3117, 9753, 0))
         )));
@@ -54,21 +54,21 @@ public class ErnestTheChickenActivity extends QuestActivity{
                 new InteractQuestAction(141, "Open", a -> Players.getLocal().getTile().equals(new Tile(3099, 9755, 0)) && !Players.getLocal().isMoving() && !Players.getLocal().isAnimating()),
                 new GroundItemInteractQuestAction("Oil can", "Take", a -> Inventory.contains("Oil can")),
                 new InteractQuestAction(141, "Open", a -> Players.getLocal().getTile().equals(new Tile(3101, 9755, 0)) && !Players.getLocal().isMoving() && !Players.getLocal().isAnimating()),
-                new InteractQuestAction("Ladder", "Climb-up", a-> UserAreas.DraynorManorSecretRoom.contains(Players.getLocal())),
-                new InteractQuestAction("Lever","Pull", a -> UserAreas.DraynorManorBookcaseArea.contains(Players.getLocal()))
+                new InteractQuestAction("Ladder", "Climb-up", a -> UserAreaService.getAreaByName("DraynorManorSecretRoom").contains(Players.getLocal())),
+                new InteractQuestAction("Lever","Pull", a -> UserAreaService.getAreaByName("DraynorManorBookcaseArea").contains(Players.getLocal()))
         )));
 
         sections.add((createQuestSection(
-                new WalkQuestAction(UserAreas.DraynorManorExitRoom),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorExitRoom")),
                 new GroundItemInteractQuestAction("Spade", "Take", a -> Inventory.contains("Spade")),
-                new WalkQuestAction(UserAreas.DraynorManorCompostHeap),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorCompostHeap")),
                 new InteractQuestAction("Compost heap", "Search", a -> Inventory.contains("Key")),
-                new WalkQuestAction(UserAreas.DraynorManorFountain),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorFountain")),
                 new UseItemOnGameObjectQuestAction("Poisoned fish food", "Fountain",a -> !Inventory.contains("Poisoned fish food")),
                 new InteractQuestAction("Fountain", "Search", a -> Inventory.contains("Pressure gauge")),
-                new WalkQuestAction(UserAreas.DraynorManorPressureGaugeRoom),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorPressureGaugeRoom")),
                 new GroundItemInteractQuestAction("Rubber tube", "Take", a -> Inventory.contains("Rubber tube")),
-                new WalkQuestAction(UserAreas.DraynorManorProfessorOddenstien),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorProfessorOddenstien")),
                 new NPCInteractQuestAction("Professor Oddenstein", "Talk-to", a -> Dialogues.inDialogue()),
                 createDialogueQuestAction(1, 2), // Goes through dialogue and chooses the options passed, in order
                 new NPCInteractQuestAction("Professor Oddenstein", "Talk-to", a -> Dialogues.inDialogue()),

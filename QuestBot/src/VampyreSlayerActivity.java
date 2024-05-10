@@ -1,4 +1,4 @@
-import SharedBotLib.UserAreas;
+import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
@@ -17,17 +17,17 @@ public class VampyreSlayerActivity extends QuestActivity{
         requiredItems.put("Coins", 2);
 
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.DraynorBank),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorBank")),
                 new GatherRequirementsQuestAction(requiredItems),
-                new WalkQuestAction(UserAreas.DraynorMorganNPCHouse),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorMorganNPCHouse")),
                 new NPCInteractQuestAction("Morgan", "Talk-to", k -> Dialogues.inDialogue()),
                 createDialogueQuestAction(1),
-                new WalkQuestAction(UserAreas.DraynorUpstairsMorgan),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorUpstairsMorgan")),
                 new InteractQuestAction("Cupboard", "Open", a -> GameObjects.closest("Cupboard").hasAction("Search")),
                 new InteractQuestAction("Cupboard", "Search", a -> Inventory.contains("Garlic"))
         ));
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.BlueMoonInn),
+                new WalkQuestAction(UserAreaService.getAreaByName("BlueMoonInn")),
                 new NPCInteractQuestAction("Dr Harlow", "Talk-to", k -> Dialogues.inDialogue()),
                 createDialogueQuestAction(2),
                 new NPCInteractQuestAction("Bartender", "Talk-to", k -> Dialogues.inDialogue()),
@@ -37,9 +37,9 @@ public class VampyreSlayerActivity extends QuestActivity{
         ));
         requiredItems.clear();
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.DraynorBank),
+                new WalkQuestAction(UserAreaService.getAreaByName("DraynorBank")),
                 new GatherRequirementsQuestAction(requiredItems, true),
-                new WalkQuestAction(UserAreas.CountDraynorCoffin),
+                new WalkQuestAction(UserAreaService.getAreaByName("CountDraynorCoffin")),
                 new InteractQuestAction("Coffin", "Open", a -> NPCs.closest("Count Draynor") != null),
                 new NPCInteractQuestAction("Count Draynor", "Attack", k -> Players.getLocal().isInCombat()),
                 new SimpleCombatQuestAction(3, "Count Draynor"),

@@ -1,4 +1,4 @@
-import SharedBotLib.UserAreas;
+import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.Players;
@@ -22,17 +22,17 @@ public class RFDGoblinGenerals extends QuestActivity{
         requiredItems.put("Charcoal", 1);
 
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.LumbyUpstairsBankArea),
+                new WalkQuestAction(UserAreaService.getAreaByName("LumbyUpstairsBankArea")),
                 new GatherRequirementsQuestAction(requiredItems),
-                new WalkQuestAction(UserAreas.LumbridgeCastleCook),
-                new InteractQuestAction(12348, "Open", k -> UserAreas.RFDDiningHall.contains(Players.getLocal())),
+                new WalkQuestAction(UserAreaService.getAreaByName("LumbridgeCastleCook")),
+                new InteractQuestAction(12348, "Open", k -> UserAreaService.getAreaByName("RFDDiningHall").contains(Players.getLocal())),
                 new InteractQuestAction("General Wartface", "Inspect", k -> Dialogues.inDialogue()),
                 createDialogueQuestAction(),
-                new InteractQuestAction("Barrier", "Pass-through", k -> UserAreas.LumbyCastleGroundFloor.contains(Players.getLocal()))
+                new InteractQuestAction("Barrier", "Pass-through", k -> UserAreaService.getAreaByName("LumbyCastleGroundFloor").contains(Players.getLocal()))
         ));
         sections.add(createQuestSection(
-                new WalkQuestAction(UserAreas.GoblinVillageEastLadderHouse),
-                new InteractQuestAction(12389, "Climb-down", k -> !UserAreas.GoblinVillageEastLadderHouse.contains(Players.getLocal())),
+                new WalkQuestAction(UserAreaService.getAreaByName("GoblinVillageEastLadderHouse")),
+                new InteractQuestAction(12389, "Climb-down", k -> !UserAreaService.getAreaByName("GoblinVillageEastLadderHouse").contains(Players.getLocal())),
                 new NPCInteractQuestAction("Goblin cook", "Talk-to", k -> Dialogues.inDialogue()),
                 createDialogueQuestAction(2, 1),
                 new NPCInteractQuestAction("Goblin cook", "Talk-to", k -> Dialogues.inDialogue()),
@@ -48,9 +48,9 @@ public class RFDGoblinGenerals extends QuestActivity{
                 createDialogueQuestAction(3)
         ));
         sections.add(createQuestSection(
-                new InteractQuestAction("Ladder", "Climb-up", k -> UserAreas.GoblinVillageEastLadderHouse.contains(Players.getLocal())),
-                new WalkQuestAction(UserAreas.LumbridgeCastleCook),
-                new InteractQuestAction(12348, "Open", k -> !UserAreas.LumbyCastleGroundFloor.contains(Players.getLocal())),
+                new InteractQuestAction("Ladder", "Climb-up", k -> UserAreaService.getAreaByName("GoblinVillageEastLadderHouse").contains(Players.getLocal())),
+                new WalkQuestAction(UserAreaService.getAreaByName("LumbridgeCastleCook")),
+                new InteractQuestAction(12348, "Open", k -> !UserAreaService.getAreaByName("LumbyCastleGroundFloor").contains(Players.getLocal())),
                 new UseItemOnGameObjectQuestAction("Slop of compromise", "General Wartface", a -> !Inventory.contains("Slop of compromise")),
                 createDialogueQuestAction()
         ));
