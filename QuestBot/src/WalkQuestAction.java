@@ -23,9 +23,9 @@ public class WalkQuestAction extends QuestAction{
         if (walkToArea.contains(Players.getLocal()))
             return ActionResult.FINISH;
 
-        if (Walking.getDestinationDistance() <= 5 || !Players.getLocal().isMoving()) {
+        if (Walking.getDestinationDistance() <= 3 || !Players.getLocal().isMoving()) {
             Walking.walk(walkToArea);
-            Sleep.sleepUntil(()->Walking.getDestinationDistance() <= 5, 3000);
+            Sleep.sleepUntil(()->Walking.getDestinationDistance() <= 3, 3000);
         }
 
         return ActionResult.CONTINUE;

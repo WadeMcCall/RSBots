@@ -13,8 +13,11 @@ public class VampyreSlayerActivity extends QuestActivity{
     public VampyreSlayerActivity() {
 
         Map<String, Integer> requiredItems = new HashMap<>();
-        requiredItems.put("Hammer", 1);
         requiredItems.put("Coins", 2);
+        Map<String, Integer> conditionalItems = new HashMap<>();
+        conditionalItems.put("Coins", 2);
+        conditionalItems.put("Hammer", 1);
+        conditionalItems.put("Garlic", 1);
 
         sections.add(createQuestSection(
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorBank")),
@@ -22,9 +25,12 @@ public class VampyreSlayerActivity extends QuestActivity{
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorMorganNPCHouse")),
                 new NPCInteractQuestAction("Morgan", "Talk-to", k -> Dialogues.inDialogue()),
                 createDialogueQuestAction(1),
-                new WalkQuestAction(UserAreaService.getAreaByName("DraynorUpstairsMorgan")),
-                new InteractQuestAction("Cupboard", "Open", a -> GameObjects.closest("Cupboard").hasAction("Search")),
-                new InteractQuestAction("Cupboard", "Search", a -> Inventory.contains("Garlic"))
+                new ConditionalQuestAction(
+                        action -> !Inventory.contains("Garlic"),
+                        new WalkQuestAction(UserAreaService.getAreaByName("DraynorUpstairsMorgan")),
+                        new InteractQuestAction("Cupboard", "Open", a -> GameObjects.closest("Cupboard").hasAction("Search")),
+                        new InteractQuestAction("Cupboard", "Search", a -> Inventory.contains("Garlic"))
+                )
         ));
         sections.add(createQuestSection(
                 new WalkQuestAction(UserAreaService.getAreaByName("BlueMoonInn")),
@@ -36,6 +42,10 @@ public class VampyreSlayerActivity extends QuestActivity{
                 createDialogueQuestAction()
         ));
         requiredItems.clear();
+        conditionalItems.clear();
+        requiredItems.put("Stake", 1);
+        requiredItems.put("Hammer", 1);
+        requiredItems.put("Garlic", 1);
         sections.add(createQuestSection(
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorBank")),
                 new GatherRequirementsQuestAction(requiredItems, true),

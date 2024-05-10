@@ -39,7 +39,7 @@ public class InteractQuestAction extends QuestAction{
 
     @Override
     public ActionResult doAction() {
-        if (Dialogues.inDialogue())
+        if (Dialogues.canContinue())
             Dialogues.continueDialogue();
 
         GameObject object = null;

@@ -10,6 +10,14 @@ import java.util.function.Predicate;
 public class UseItemOnGameObjectQuestAction extends QuestAction{
     public String invItemName;
     public String gameObjectName;
+    public int objectID;
+
+    public UseItemOnGameObjectQuestAction(String _invItem, int _go, Predicate<UseItemOnGameObjectQuestAction> completionCheck) {
+        super(a -> completionCheck.test((UseItemOnGameObjectQuestAction) a));
+
+        invItemName = _invItem;
+        objectID = _go;
+    }
 
     public UseItemOnGameObjectQuestAction(String _invItem, String _go, Predicate<UseItemOnGameObjectQuestAction> completionCheck) {
         super(a -> completionCheck.test((UseItemOnGameObjectQuestAction) a));
@@ -28,7 +36,12 @@ public class UseItemOnGameObjectQuestAction extends QuestAction{
         if (Dialogues.inDialogue())
             Dialogues.continueDialogue();
 
-        GameObject object = GameObjects.closest(gameObjectName);
+        GameObject object;
+        if (gameObjectName != null) {
+            object = GameObjects.closest(gameObjectName);
+        } else {
+            object = GameObjects.closest(objectID);
+        }
         if (!Inventory.contains(invItemName) || object == null) {
             return ActionResult.ERROR;
         }

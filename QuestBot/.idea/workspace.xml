@@ -10,21 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0cf1cb-b51d-40d5-87c7-c88e6027a7a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NatureSpirit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModelCodec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/InitialAreaDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreaDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/UserAreaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ConditionalQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InventoryInteractQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LoopUntilQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/QuestVarps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UseItemOnNPCQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WalkExactTileQuestAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WidgetInteractQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RFDGoblinGenerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RFDGoblinGenerals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RFDStartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RFDStartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NatureSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NatureSpirit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/MongoDBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/MongoDBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WalkQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WalkQuestAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +54,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/SharedBotLib",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/dance/Documents/RSBots/SharedBotLib&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
