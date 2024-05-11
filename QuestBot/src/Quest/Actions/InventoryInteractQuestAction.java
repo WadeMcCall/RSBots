@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.utilities.Sleep;
@@ -9,7 +9,7 @@ public class InventoryInteractQuestAction extends QuestAction {
     public String item;
     public String action;
 
-    InventoryInteractQuestAction(String _item, String _action, Predicate<InventoryInteractQuestAction> completionCheck) {
+    public InventoryInteractQuestAction(String _item, String _action, Predicate<InventoryInteractQuestAction> completionCheck) {
         super(a -> completionCheck.test((InventoryInteractQuestAction) a));
 
         item = _item;

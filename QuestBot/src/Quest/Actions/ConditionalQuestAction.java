@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import java.util.Arrays;
 import java.util.List;

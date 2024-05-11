@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import SharedBotLib.Utils;
 import org.dreambot.api.methods.interactive.NPCs;
@@ -8,7 +8,7 @@ public class SimpleCombatQuestAction extends QuestAction {
     public int enemyMaxHit;
     public String enemyName;
 
-    SimpleCombatQuestAction(int _enemyMaxHit, String _enemyName) {
+    public SimpleCombatQuestAction(int _enemyMaxHit, String _enemyName) {
         enemyMaxHit = _enemyMaxHit;
         enemyName = _enemyName;
     }

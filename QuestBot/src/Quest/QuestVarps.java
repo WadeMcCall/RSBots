@@ -1,3 +1,5 @@
+package Quest;
+
 /**
  * Server controlled "content-developer" integers.
  *

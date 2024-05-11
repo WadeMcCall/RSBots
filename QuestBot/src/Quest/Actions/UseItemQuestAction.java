@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import SharedBotLib.Utils;
 import org.dreambot.api.methods.container.impl.Inventory;

@@ -1,7 +1,8 @@
-package Activities;
+package Quest.Activities;
 
-import Actions.DialogueQuestAction;
-import Actions.QuestAction;
+import Quest.Actions.DialogueQuestAction;
+import Quest.Actions.QuestAction;
+import Quest.QuestSection;
 import SharedBotLib.Activity;
 import org.dreambot.api.methods.dialogues.Dialogues;
 

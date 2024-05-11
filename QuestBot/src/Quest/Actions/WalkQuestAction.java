@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Area;

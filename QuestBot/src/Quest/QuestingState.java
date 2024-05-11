@@ -1,5 +1,7 @@
-import Actions.QuestAction;
-import Activities.QuestActivity;
+package Quest;
+
+import Quest.Actions.QuestAction;
+import Quest.Activities.QuestActivity;
 import SharedBotLib.State;
 import org.dreambot.api.script.ScriptManager;
 import org.dreambot.api.utilities.Logger;

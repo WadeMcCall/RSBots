@@ -13,31 +13,34 @@
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ConditionalQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/ConditionalQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/DialogueQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ErnestTheChickenActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/GatherRequirementsQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GroundItemInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/GroundItemInteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/InteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InventoryInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/InventoryInteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoopUntilQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/LoopUntilQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NPCInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/NPCInteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NatureSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NatureSpirit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/QuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestSection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestingState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RFDGoblinGenerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RFDGoblinGenerals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RFDStartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RFDStartActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SimpleCombatQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/SimpleCombatQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/UseItemOnGameObjectQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseItemOnNPCQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/UseItemOnNPCQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseItemQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/UseItemQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WaitForQuestCompleteAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/WaitForQuestCompleteAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WalkExactTileQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/WalkExactTileQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WalkQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/WalkQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WidgetInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Actions/WidgetInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/ConditionalQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/ConditionalQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/DialogueQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/DialogueQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/GatherRequirementsQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/GroundItemInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/GroundItemInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/InteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/InventoryInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/InventoryInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/LoopUntilQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/LoopUntilQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/NPCInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/NPCInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/QuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/QuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/SimpleCombatQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/SimpleCombatQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/UseItemOnGameObjectQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/UseItemOnGameObjectQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/UseItemOnNPCQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/UseItemOnNPCQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/UseItemQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/UseItemQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/WaitForQuestCompleteAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/WaitForQuestCompleteAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/WalkExactTileQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/WalkExactTileQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/WalkQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/WalkQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Actions/WidgetInteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Actions/WidgetInteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/ErnestTheChickenActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/ErnestTheChicken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/NatureSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/NatureSpirit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/QuestActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/QuestActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/RFDGoblinGenerals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/RFDGoblinGenerals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/RFDStartActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/RFDStartActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Activities/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/Activities/VampyreSlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/QuestBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestSection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/QuestSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestVarps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/QuestVarps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/QuestingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuestingStateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quest/QuestingStateMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +87,8 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Quest" />
+      <recent name="Activities" />
       <recent name="Actions" />
     </key>
   </component>

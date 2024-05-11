@@ -1,6 +1,6 @@
-package Activities;
+package Quest.Activities;
 
-import Actions.*;
+import Quest.Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class NatureSpirit extends QuestActivity {
-    NatureSpirit() {
+    public NatureSpirit() {
         Map<String, Integer> requiredItems = new HashMap<>();
         requiredItems.put("Ghostspeak amulet", 1);
 

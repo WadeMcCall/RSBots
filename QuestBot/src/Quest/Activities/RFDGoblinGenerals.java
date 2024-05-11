@@ -1,6 +1,6 @@
-package Activities;
+package Quest.Activities;
 
-import Actions.*;
+import Quest.Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;

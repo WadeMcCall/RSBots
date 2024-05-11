@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.widget.Widgets;

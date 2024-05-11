@@ -1,6 +1,6 @@
-package Activities;
+package Quest.Activities;
 
-import Actions.*;
+import Quest.Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
@@ -11,8 +11,8 @@ import org.dreambot.api.methods.interactive.Players;
 import java.util.HashMap;
 import java.util.Map;
 
-public class VampyreSlayerActivity extends QuestActivity{
-    public VampyreSlayerActivity() {
+public class VampyreSlayer extends QuestActivity{
+    public VampyreSlayer() {
 
         Map<String, Integer> requiredItems = new HashMap<>();
         requiredItems.put("Coins", 2);

@@ -1,6 +1,6 @@
-package Activities;
+package Quest.Activities;
 
-import Actions.*;
+import Quest.Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
@@ -8,9 +8,9 @@ import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Tile;
 import org.dreambot.api.methods.settings.PlayerSettings;
 
-public class ErnestTheChickenActivity extends QuestActivity{
+public class ErnestTheChicken extends QuestActivity{
 
-    public ErnestTheChickenActivity() {
+    public ErnestTheChicken() {
         sections.add(createQuestSection(
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorGroundsEntrance")),
                 new NPCInteractQuestAction("Veronica", "Talk-to", a -> Dialogues.inDialogue()),

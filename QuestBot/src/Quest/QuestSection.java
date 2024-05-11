@@ -1,4 +1,6 @@
-import Actions.QuestAction;
+package Quest;
+
+import Quest.Actions.QuestAction;
 
 import java.util.*;
 

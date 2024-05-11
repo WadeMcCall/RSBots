@@ -1,4 +1,4 @@
-package Actions;
+package Quest.Actions;
 
 import SharedBotLib.FoodItem;
 import SharedBotLib.FoodService;
@@ -17,21 +17,21 @@ public class GatherRequirementsQuestAction extends QuestAction {
     public Map<String, Integer> conditionalItemMap = new HashMap<>();
     public boolean bringFood = false;
 
-    GatherRequirementsQuestAction(Map<String, Integer> items) {
+    public GatherRequirementsQuestAction(Map<String, Integer> items) {
         itemMap.putAll(items);
     }
 
-    GatherRequirementsQuestAction(Map<String, Integer> items, boolean _food) {
+    public GatherRequirementsQuestAction(Map<String, Integer> items, boolean _food) {
         itemMap.putAll(items);
         bringFood = _food;
     }
 
-    GatherRequirementsQuestAction(Map<String, Integer> items, Map<String, Integer> conditionalItems) {
+    public GatherRequirementsQuestAction(Map<String, Integer> items, Map<String, Integer> conditionalItems) {
         itemMap.putAll(items);
         conditionalItemMap.putAll(conditionalItems);
     }
 
-    GatherRequirementsQuestAction(Map<String, Integer> items, Map<String, Integer> conditionalItems, boolean _food) {
+    public GatherRequirementsQuestAction(Map<String, Integer> items, Map<String, Integer> conditionalItems, boolean _food) {
         itemMap.putAll(items);
         conditionalItemMap.putAll(conditionalItems);
         bringFood = _food;
