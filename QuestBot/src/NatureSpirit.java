@@ -79,7 +79,8 @@ public class NatureSpirit extends QuestActivity {
                 ),
                 new InteractQuestAction("Silver sickle (b)", "Wield", a -> !Inventory.contains("Silver sickle (b)")),
                 new LoopUntilQuestAction(
-                        a -> Inventory.contains(2957),
+                        a -> false,
+                        3,
                         new UseItemOnNPCQuestAction("Druid pouch", "Ghast", a -> !Players.getLocal().isInCombat()),
                         new SimpleCombatQuestAction(5, "Ghast")
                 ),

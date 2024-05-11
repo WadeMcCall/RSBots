@@ -10,21 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d089240-8918-4ac6-8891-60f0c5a16453" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/ConditionalQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/InventoryInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/LoopUntilQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/QuestVarps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/UseItemOnNPCQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/WalkExactTileQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../QuestBot/src/WidgetInteractQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/GatherRequirementsQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/InteractQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/NatureSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/NatureSpirit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/UseItemOnGameObjectQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/VampyreSlayerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/WalkQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/WalkQuestAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -10,22 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b0cf1cb-b51d-40d5-87c7-c88e6027a7a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ConditionalQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InventoryInteractQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LoopUntilQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuestVarps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UseItemOnNPCQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WalkExactTileQuestAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WidgetInteractQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../KillingMenBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GatherRequirementsQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InteractQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InteractQuestAction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LoopUntilQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoopUntilQuestAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/NatureSpirit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NatureSpirit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UseItemOnGameObjectQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VampyreSlayerActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WalkQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WalkQuestAction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
