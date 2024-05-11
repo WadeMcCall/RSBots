@@ -1,3 +1,6 @@
+package Activities;
+
+import Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
@@ -5,7 +8,6 @@ import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.NPCs;
 import org.dreambot.api.methods.interactive.Players;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

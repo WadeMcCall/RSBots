@@ -1,3 +1,5 @@
+package Actions;
+
 import SharedBotLib.Utils;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
@@ -7,7 +9,7 @@ import org.dreambot.api.wrappers.interactive.GameObject;
 
 import java.util.function.Predicate;
 
-public class UseItemOnGameObjectQuestAction extends QuestAction{
+public class UseItemOnGameObjectQuestAction extends QuestAction {
     public String invItemName;
     public String gameObjectName;
     public int objectID;

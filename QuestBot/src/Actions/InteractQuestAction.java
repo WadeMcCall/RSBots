@@ -1,8 +1,9 @@
+package Actions;
+
 import SharedBotLib.Utils;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
-import org.dreambot.api.methods.map.Area;
 import org.dreambot.api.methods.walking.impl.Walking;
 import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.utilities.Sleep;
@@ -10,7 +11,7 @@ import org.dreambot.api.wrappers.interactive.GameObject;
 
 import java.util.function.Predicate;
 
-public class InteractQuestAction extends QuestAction{
+public class InteractQuestAction extends QuestAction {
     public String interactableName;
     public String interactAction;
     public int interactableID = -1;

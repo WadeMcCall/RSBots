@@ -1,11 +1,12 @@
+package Activities;
+
+import Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Tile;
 import org.dreambot.api.methods.settings.PlayerSettings;
-
-import java.util.*;
 
 public class ErnestTheChickenActivity extends QuestActivity{
 
@@ -64,7 +65,7 @@ public class ErnestTheChickenActivity extends QuestActivity{
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorCompostHeap")),
                 new InteractQuestAction("Compost heap", "Search", a -> Inventory.contains("Key")),
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorFountain")),
-                new UseItemOnGameObjectQuestAction("Poisoned fish food", "Fountain",a -> !Inventory.contains("Poisoned fish food")),
+                new UseItemOnGameObjectQuestAction("Poisoned fish food", "Fountain", a -> !Inventory.contains("Poisoned fish food")),
                 new InteractQuestAction("Fountain", "Search", a -> Inventory.contains("Pressure gauge")),
                 new WalkQuestAction(UserAreaService.getAreaByName("DraynorManorPressureGaugeRoom")),
                 new GroundItemInteractQuestAction("Rubber tube", "Take", a -> Inventory.contains("Rubber tube")),

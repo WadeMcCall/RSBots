@@ -1,12 +1,13 @@
+package Actions;
+
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.map.Area;
-import org.dreambot.api.methods.map.Map;
 import org.dreambot.api.methods.walking.impl.Walking;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.function.Predicate;
 
-public class WalkQuestAction extends QuestAction{
+public class WalkQuestAction extends QuestAction {
     public Area walkToArea;
 
     public WalkQuestAction(Area _area) {

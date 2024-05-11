@@ -1,9 +1,11 @@
+package Actions;
+
 import org.dreambot.api.methods.widget.Widgets;
 import org.dreambot.api.wrappers.widgets.WidgetChild;
 
 import java.util.function.Predicate;
 
-public class WidgetInteractQuestAction extends QuestAction{
+public class WidgetInteractQuestAction extends QuestAction {
     public int widgetParentID;
     public int widgetChildID;
     public String action;

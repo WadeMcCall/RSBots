@@ -1,3 +1,5 @@
+package Actions;
+
 import SharedBotLib.FoodItem;
 import SharedBotLib.FoodService;
 import com.mongodb.client.model.Filters;
@@ -6,7 +8,6 @@ import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.container.impl.bank.Bank;
 import org.dreambot.api.methods.container.impl.equipment.Equipment;
 import org.dreambot.api.methods.interactive.GameObjects;
-import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.*;

@@ -1,4 +1,4 @@
-import SharedBotLib.Activity;
+import Activities.QuestActivity;
 import SharedBotLib.StateMachine;
 
 public class QuestingStateMachine extends StateMachine<QuestActivity> {

@@ -1,9 +1,11 @@
+package Actions;
+
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.function.Predicate;
 
-public class InventoryInteractQuestAction extends QuestAction{
+public class InventoryInteractQuestAction extends QuestAction {
     public String item;
     public String action;
 

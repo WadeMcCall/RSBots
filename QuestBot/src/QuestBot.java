@@ -1,5 +1,4 @@
-import SharedBotLib.Activity;
-import SharedBotLib.InitialAreaDataLoader;
+import Activities.NatureSpirit;
 import org.dreambot.api.script.AbstractScript;
 import org.dreambot.api.script.Category;
 import org.dreambot.api.script.ScriptManifest;

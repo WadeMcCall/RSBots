@@ -1,12 +1,13 @@
+package Actions;
+
 import org.dreambot.api.methods.interactive.Players;
-import org.dreambot.api.methods.map.Area;
 import org.dreambot.api.methods.map.Tile;
 import org.dreambot.api.methods.walking.impl.Walking;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.function.Predicate;
 
-public class WalkExactTileQuestAction extends QuestAction{
+public class WalkExactTileQuestAction extends QuestAction {
     public Tile walkToTile;
 
     public WalkExactTileQuestAction(Tile _tile) {

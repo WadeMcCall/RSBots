@@ -1,11 +1,12 @@
+package Actions;
+
 import SharedBotLib.Utils;
 import org.dreambot.api.methods.container.impl.Inventory;
-import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.utilities.Sleep;
 
 import java.util.function.Predicate;
 
-public class UseItemQuestAction extends QuestAction{
+public class UseItemQuestAction extends QuestAction {
     private String item1;
     private String item2;
 

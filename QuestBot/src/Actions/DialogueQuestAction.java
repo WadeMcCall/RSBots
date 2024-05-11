@@ -1,3 +1,5 @@
+package Actions;
+
 import org.dreambot.api.input.Keyboard;
 import org.dreambot.api.methods.dialogues.Dialogues;
 

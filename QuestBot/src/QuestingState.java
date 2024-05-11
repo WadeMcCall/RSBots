@@ -1,12 +1,10 @@
+import Actions.QuestAction;
+import Activities.QuestActivity;
 import SharedBotLib.State;
-import SharedBotLib.StateMachine;
 import org.dreambot.api.script.ScriptManager;
 import org.dreambot.api.utilities.Logger;
 import org.dreambot.api.wrappers.widgets.message.Message;
 import org.dreambot.api.utilities.Logger.LogType;
-
-import java.util.Queue;
-import java.util.Stack;
 
 public class QuestingState extends State<QuestActivity> {
     public QuestingState(QuestingStateMachine sm) {

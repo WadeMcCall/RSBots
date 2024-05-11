@@ -1,11 +1,13 @@
+package Activities;
+
+import Actions.DialogueQuestAction;
+import Actions.QuestAction;
 import SharedBotLib.Activity;
 import org.dreambot.api.methods.dialogues.Dialogues;
-import org.dreambot.api.utilities.Logger;
 
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class QuestActivity extends Activity {
     protected final Queue<QuestSection> sections = new LinkedList<>();

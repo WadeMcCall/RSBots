@@ -1,7 +1,9 @@
+package Actions;
+
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.widget.Widgets;
 
-public class WaitForQuestCompleteAction extends QuestAction{
+public class WaitForQuestCompleteAction extends QuestAction {
     private static final int QUEST_COMPLETE_WIDGET_ID = 153;
 
     @Override

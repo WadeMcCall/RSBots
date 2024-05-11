@@ -1,9 +1,11 @@
+package Activities;
+
+import Actions.*;
 import SharedBotLib.UserAreaService;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.dialogues.Dialogues;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.widget.Widgets;
-import org.dreambot.api.wrappers.interactive.Player;
 
 import java.util.HashMap;
 import java.util.Map;

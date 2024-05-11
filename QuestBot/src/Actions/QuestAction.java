@@ -1,3 +1,5 @@
+package Actions;
+
 import java.util.function.Predicate;
 
 public abstract class QuestAction {

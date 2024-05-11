@@ -1,3 +1,5 @@
+import Actions.QuestAction;
+
 import java.util.*;
 
 // I do realize this is simply a shitty wrapper on the Queue class at the moment....
