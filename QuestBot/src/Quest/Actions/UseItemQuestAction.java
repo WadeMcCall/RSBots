@@ -28,6 +28,7 @@ public class UseItemQuestAction extends QuestAction {
         if (!Inventory.contains(item1) || !Inventory.contains(item2)) {
             return ActionResult.ERROR;
         }
+
         Inventory.get(item1).useOn(item2);
         Sleep.sleep((int) Utils.getRandomGuassianDistNotNegative(600, 300));
 

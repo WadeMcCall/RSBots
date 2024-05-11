@@ -25,7 +25,9 @@ public class AreaModel {
         GOTR,
         SEERS,
         CANIFIS,
-        ARDOUGNE
+        ARDOUGNE,
+        PORT_SARIM,
+        ZANARIS
     }
 
     // Constructors

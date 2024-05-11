@@ -8,8 +8,8 @@ import org.dreambot.api.methods.dialogues.Dialogues;
 import java.util.HashMap;
 import java.util.Map;
 
-public class RFDStartActivity extends QuestActivity{
-    RFDStartActivity() {
+public class RFDStart extends QuestActivity{
+    RFDStart() {
         Map<String, Integer> requiredItems = new HashMap<>();
         requiredItems.put("Eye of newt", 1);
         requiredItems.put("Greenman's ale", 1);
