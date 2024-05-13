@@ -37,7 +37,7 @@ public class LootingState extends KillingState<FightingActivity>{
             return;
         }
         List<GroundItem> relevantGroundItems = GroundItems.all(groundItem -> state_machine.activity.itemsToLoot.stream()
-                        .anyMatch(lootItem -> lootItem.getName().equals(groundItem.getName())));
+                        .anyMatch(lootItem -> lootItem.getName().equals(groundItem.getName()) && groundItem.canReach()));
 
         if (relevantGroundItems.isEmpty()) {
             state_machine.switchState(FightingStateMachine.States.FINDING_TARGET_STATE);
@@ -62,7 +62,9 @@ public class LootingState extends KillingState<FightingActivity>{
         if (highestPriorityGroundedLootItem.isPresent()) {
 
             if (!Inventory.isFull()) {
-                GroundItems.closest(highestPriorityGroundedLootItem.get().getName()).interact("Take");
+                if (!GroundItems.closest(highestPriorityGroundedLootItem.get().getName()).interact("Take")) {
+                    state_machine.switchState(FightingStateMachine.States.FINDING_TARGET_STATE);
+                }
                 Sleep.sleep(50, 800);
                 return;
             }

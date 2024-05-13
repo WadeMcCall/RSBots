@@ -40,18 +40,7 @@ public class GatherRequirementsQuestAction extends QuestAction {
 
     @Override
     public ActionResult doAction() {
-        // Check if inventory contains the required amounts
-        boolean allItemsAcquired = itemMap.entrySet().stream()
-                .allMatch(entry -> {
-                    int count = Inventory.count(entry.getKey());
-                    if (Equipment.contains(entry.getKey())) {
-                        count++; // Increment count if item is equipped
-                    }
-                    return count >= entry.getValue();
-                });
 
-        if (allItemsAcquired)
-            return ActionResult.FINISH;
 
         if (!Bank.isOpen()) {
             GameObjects.closest(x -> x.hasAction("Bank")).interact("Bank");
@@ -93,6 +82,17 @@ public class GatherRequirementsQuestAction extends QuestAction {
                 }
             }
         }
+        // Check if inventory contains the required amounts
+        boolean allItemsAcquired = itemMap.entrySet().stream()
+                .allMatch(entry -> {
+                    int count = Inventory.count(entry.getKey());
+                    if (Equipment.contains(entry.getKey())) {
+                        count++; // Increment count if item is equipped
+                    }
+                    return count >= entry.getValue();
+                });
+        if (allItemsAcquired)
+            return ActionResult.FINISH;
         return ActionResult.CONTINUE;
     }
 }

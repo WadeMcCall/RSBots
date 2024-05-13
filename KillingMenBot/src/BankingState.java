@@ -19,9 +19,11 @@ public class BankingState extends KillingState<FightingActivity> {
 
     @Override
     public void doAction() {
-        if (Inventory.contains(state_machine.activity.currentFoodItem.getName())) {
-            state_machine.switchState(FightingStateMachine.States.WALKING_TO_SPOT_STATE);
-            return;
+        if (state_machine.activity.currentFoodItem != null) {
+            if (Inventory.contains(state_machine.activity.currentFoodItem.getName())) {
+                state_machine.switchState(FightingStateMachine.States.WALKING_TO_SPOT_STATE);
+                return;
+            }
         }
 
         if (!Inventory.isEmpty()) {
