@@ -10,15 +10,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8284c388-9fb0-439a-9691-1ba474c78681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SlayerBot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SlayerBot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SlayerBot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SlayerBot/src/SlayerBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AgilityBot/src/SeersAgilityActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/artifacts/ConstructionBot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/libraries/SharedBotLib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/libraries/client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/BankingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/BuildingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/GoingToBankState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/GoingToHouseState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/OakLardersActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/libs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/Loadout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/artifacts/WarriorGuildBot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/libraries/SharedBotLib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/libraries/client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/BankingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/KillingAnimatedArmorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/LootingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/SpawningNewArmorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WalkingToAnimatedArmorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WalkingToBankState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WarriorGuildBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WarriorStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/libs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/AgilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/AgilityActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/AgilityBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/AgilityBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/FellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/FellState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/FindingNextObstacleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/FindingNextObstacleState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/Quest/Actions/GatherRequirementsQuestAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/Quest/Actions/GatherRequirementsQuestAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/Quest/Activities/FairyTalePt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/Quest/Activities/FairyTalePt1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/src/Quest/QuestBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/src/Quest/QuestBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +82,6 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/dance/Documents/RSBots/KillingMenBot&quot;,

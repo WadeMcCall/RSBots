@@ -1,18 +1,15 @@
 import SharedBotLib.State;
 import SharedBotLib.StateMachine;
-import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.wrappers.widgets.message.Message;
 
-public class FellState extends State<AgilityActivity> {
-    public FellState(StateMachine<AgilityActivity> sm) {
+public class EntryState extends State {
+    public EntryState(StateMachine sm) {
         super(sm);
     }
 
     @Override
     public void doAction() {
-        if (Players.getLocal().isHealthBarVisible()) {
-            return;
-        }
+
     }
 
     @Override

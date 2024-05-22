@@ -7,7 +7,7 @@ import org.dreambot.api.script.ScriptManifest;
 
 public class AgilityBot extends AbstractScript{
 
-    AgilityStateMachine sm = new AgilityStateMachine(new FaladorRooftopActivity());
+    AgilityStateMachine sm = new AgilityStateMachine(new SeersAgilityActivity());
 
     @Override
     public int onLoop() {

@@ -27,7 +27,8 @@ public class AreaModel {
         CANIFIS,
         ARDOUGNE,
         PORT_SARIM,
-        ZANARIS
+        ZANARIS,
+        BURTHORPE
     }
 
     // Constructors
