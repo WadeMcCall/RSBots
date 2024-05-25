@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../AgilityBot/AgilityBot.iml" filepath="$PROJECT_DIR$/../AgilityBot/AgilityBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ConstructionBot/ConstructionBot.iml" filepath="$PROJECT_DIR$/../ConstructionBot/ConstructionBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../CookingBot/CookingBot.iml" filepath="$PROJECT_DIR$/../CookingBot/CookingBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DBScript/DBScript.iml" filepath="$PROJECT_DIR$/../DBScript/DBScript.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../FishingBot/FishingBot.iml" filepath="$PROJECT_DIR$/../FishingBot/FishingBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GemCuttingBot/GemCuttingBot.iml" filepath="$PROJECT_DIR$/../GemCuttingBot/GemCuttingBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../GuardiansOfTheRiftBot/GuardiansOfTheRiftBot.iml" filepath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/GuardiansOfTheRiftBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KillingMenBot/KillingMenBot.iml" filepath="$PROJECT_DIR$/../KillingMenBot/KillingMenBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MainProj.iml" filepath="$PROJECT_DIR$/MainProj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MiningBot/MiningBot.iml" filepath="$PROJECT_DIR$/../MiningBot/MiningBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../QuestBot/QuestBot.iml" filepath="$PROJECT_DIR$/../QuestBot/QuestBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SharedBotLib/SharedBotLib.iml" filepath="$PROJECT_DIR$/../SharedBotLib/SharedBotLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SlayerBot/SlayerBot.iml" filepath="$PROJECT_DIR$/../SlayerBot/SlayerBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TemporossBot/TemporossBot.iml" filepath="$PROJECT_DIR$/../TemporossBot/TemporossBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ThievingBot/ThievingBot.iml" filepath="$PROJECT_DIR$/../ThievingBot/ThievingBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TitheFarmBot/TitheFarmBot.iml" filepath="$PROJECT_DIR$/../TitheFarmBot/TitheFarmBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WarriorGuildBot/WarriorGuildBot.iml" filepath="$PROJECT_DIR$/../WarriorGuildBot/WarriorGuildBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WoodcutFmBot/WoodcutFmBot.iml" filepath="$PROJECT_DIR$/../WoodcutFmBot/WoodcutFmBot.iml" />
+    </modules>
+  </component>
+</project>

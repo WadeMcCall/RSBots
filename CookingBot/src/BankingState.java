@@ -6,6 +6,7 @@ import org.dreambot.api.methods.skills.Skills;
 import org.dreambot.api.methods.tabs.Tabs;
 import org.dreambot.api.script.ScriptManager;
 import org.dreambot.api.utilities.Sleep;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -80,6 +81,11 @@ public class BankingState extends State<CookingActivity> {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

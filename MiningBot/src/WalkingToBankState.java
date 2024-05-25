@@ -1,5 +1,6 @@
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.walking.impl.Walking;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class WalkingToBankState extends MiningState{
     WalkingToBankState(MiningStateMachine sm) {
@@ -24,6 +25,11 @@ public class WalkingToBankState extends MiningState{
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

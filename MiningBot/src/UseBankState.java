@@ -4,6 +4,7 @@ import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.GameObject;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class UseBankState extends MiningState{
     UseBankState(MiningStateMachine sm) {
@@ -32,6 +33,11 @@ public class UseBankState extends MiningState{
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

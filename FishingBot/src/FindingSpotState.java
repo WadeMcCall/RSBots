@@ -4,6 +4,7 @@ import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.NPC;
 import org.dreambot.api.methods.interactive.NPCs;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class FindingSpotState extends FishingState {
     FindingSpotState(FishingStateMachine sm) {
@@ -32,4 +33,9 @@ public class FindingSpotState extends FishingState {
 
     @Override
     public void Exit() {}
+
+    @Override
+    public void chatMessageRecieved(Message message) {
+
+    }
 }

@@ -1,6 +1,7 @@
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.container.impl.bank.Bank;
 import org.dreambot.api.utilities.Sleep;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class BankingState extends MiningState{
     BankingState(MiningStateMachine sm) {
@@ -33,6 +34,11 @@ public class BankingState extends MiningState{
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

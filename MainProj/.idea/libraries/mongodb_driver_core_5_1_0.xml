@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="mongodb-driver-core-5.1.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-core/5.1.0/mongodb-driver-core-5.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson-record-codec/5.1.0/bson-record-codec-5.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/bson/5.1.0/bson-5.1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/mongodb/mongodb-driver-sync/5.1.0/mongodb-driver-sync-5.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

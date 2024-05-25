@@ -9,6 +9,7 @@ import org.dreambot.api.methods.worldhopper.WorldHopper;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.GameObject;
 import org.dreambot.api.wrappers.interactive.NPC;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class FindingSpotState extends MiningState {
     FindingSpotState(MiningStateMachine sm) {
@@ -51,6 +52,11 @@ public class FindingSpotState extends MiningState {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

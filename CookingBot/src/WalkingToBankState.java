@@ -1,6 +1,7 @@
 import SharedBotLib.State;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.walking.impl.Walking;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class WalkingToBankState extends State<CookingActivity> {
     public WalkingToBankState(CookingStateMachine cookingStateMachine) {
@@ -25,6 +26,11 @@ public class WalkingToBankState extends State<CookingActivity> {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

@@ -10,48 +10,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8284c388-9fb0-439a-9691-1ba474c78681" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../AgilityBot/src/SeersAgilityActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/artifacts/ConstructionBot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/libraries/SharedBotLib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/libraries/client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/BankingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/BuildingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/ConstructionStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/GoingToBankState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/GoingToHouseState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/OakLardersActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ConstructionBot/src/libs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/Loadout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/artifacts/WarriorGuildBot_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/libraries/SharedBotLib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/libraries/client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/BankingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/KillingAnimatedArmorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/LootingState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/SpawningNewArmorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WalkingToAnimatedArmorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WalkingToBankState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WarriorGuildBot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/WarriorStateMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../WarriorGuildBot/src/libs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgilityBot/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/AgilityActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/AgilityActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/AgilityBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/AgilityBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/FellState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/FellState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AgilityBot/src/FindingNextObstacleState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/src/FindingNextObstacleState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/src/SharedBotLib/AreaModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/artifacts/TitheFarmBot_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/libraries/SharedBotLib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/libraries/client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/src/FarmingStateMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/src/RefillingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/src/TitheFarmBot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TitheFarmBot/src/libs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AgilityBot/AgilityBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../AgilityBot/AgilityBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConstructionBot/ConstructionBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConstructionBot/ConstructionBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/CookingBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/CookingBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/BankingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/BankingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/CookingAtSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/CookingAtSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/FindingSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/FindingSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/UseBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/UseBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/WalkingToBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/WalkingToBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CookingBot/src/WalkingToSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CookingBot/src/WalkingToSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DBScript/DBScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBScript/DBScript.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/FishingBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/FishingBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/BankingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/BankingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/FindingSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/FindingSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/FishingAtSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/FishingAtSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/UseBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/UseBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/WalkingToBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/WalkingToBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FishingBot/src/WalkingToSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../FishingBot/src/WalkingToSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GemCuttingBot/GemCuttingBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GemCuttingBot/GemCuttingBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/GuardiansOfTheRiftBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuardiansOfTheRiftBot/GuardiansOfTheRiftBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KillingMenBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KillingMenBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KillingBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KillingBot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/MiningBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/MiningBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/BankingState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/BankingState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/EntryState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/EntryState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/FindingSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/FindingSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/MiningAtSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/MiningAtSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/UseBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/UseBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/WalkingToBankState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/WalkingToBankState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MiningBot/src/WalkingToSpotState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MiningBot/src/WalkingToSpotState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QuestBot/QuestBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../QuestBot/QuestBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SharedBotLib/SharedBotLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SharedBotLib/SharedBotLib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SlayerBot/SlayerBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SlayerBot/SlayerBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemporossBot/TemporossBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../TemporossBot/TemporossBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThievingBot/ThievingBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThievingBot/ThievingBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WarriorGuildBot/WarriorGuildBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WarriorGuildBot/WarriorGuildBot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WoodcutFmBot/WoodcutFmBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WoodcutFmBot/WoodcutFmBot.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,17 +87,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dance/Documents/RSBots/KillingMenBot&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.CodyAccountHistoryMigration": "true",
+    "RunOnceActivity.CodyConvertUrlToCodebaseName": "true",
+    "RunOnceActivity.CodyHistoryLlmMigration": "true",
+    "RunOnceActivity.CodyProjectSettingsMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/dance/Documents/RSBots/KillingMenBot",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

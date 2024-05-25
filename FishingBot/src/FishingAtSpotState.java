@@ -1,6 +1,7 @@
 import SharedBotLib.StateMachine;
 import org.dreambot.api.methods.container.impl.Inventory;
 import org.dreambot.api.methods.interactive.Players;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class FishingAtSpotState extends FishingState {
     FishingAtSpotState(FishingStateMachine sm) {
@@ -25,6 +26,11 @@ public class FishingAtSpotState extends FishingState {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

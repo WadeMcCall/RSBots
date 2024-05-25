@@ -1,5 +1,6 @@
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.methods.walking.impl.Walking;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class WalkingToSpotState extends MiningState {
     WalkingToSpotState(MiningStateMachine sm) {
@@ -25,6 +26,11 @@ public class WalkingToSpotState extends MiningState {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

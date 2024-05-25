@@ -6,6 +6,7 @@ import org.dreambot.api.methods.interactive.GameObjects;
 import org.dreambot.api.methods.interactive.Players;
 import org.dreambot.api.utilities.Sleep;
 import org.dreambot.api.wrappers.interactive.GameObject;
+import org.dreambot.api.wrappers.widgets.message.Message;
 
 public class FindingSpotState extends State<CookingActivity> {
     private final String[] rawFood = {"Raw shrimps", "Raw anchovies", "Raw sardine", "Raw herring"};
@@ -41,6 +42,11 @@ public class FindingSpotState extends State<CookingActivity> {
 
     @Override
     public void Exit() {
+
+    }
+
+    @Override
+    public void chatMessageRecieved(Message message) {
 
     }
 }

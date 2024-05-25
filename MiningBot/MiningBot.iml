@@ -7,7 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="SharedBotLib" />
     <orderEntry type="library" name="client" level="project" />
-    <orderEntry type="library" name="SharedBotLib" level="project" />
   </component>
 </module>
